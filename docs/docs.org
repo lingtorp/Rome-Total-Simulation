@@ -1,0 +1,82 @@
+* Rome: Total Simulation (RTS)
+This project was born out of a love of Roman history and the lack of deep and
+fun historical simulators that did not skimp on the details.
+
+It is written in C because one mans pain is another mans fun as the famous
+goes. The user interface is either a actually working GUI version or the now
+seriously-in-need-of-a-update terminal user inteface (TUI). 
+
+The core philosophy regarding the gameplay is that spending in-game resources
+should feel impactful and that one should actually learn something regarding
+Roman history simply by playing the game. 
+
+* Gameplay
+In Rome: Total Simulation your goal is to ensure that *voice of
+Palpatine* the Republic (of Rome) survives the struggle between the patricians
+and plebians known as the conflict of the orders. The game takes place from 350
+BC to around 0 AD.
+
+How you go about this is by balancing the needs of the aristocracy and the
+masses by commissioning construction projects, enact laws that affect the life
+of all Romans and last but not least wage war against non-Romans (and
+occasionally put down a slave revolt or two). 
+
+The main ways to do all this is to ensure that the gold keeps flowing towards
+Rome and that the food and water supply is safe. 
+
+** Constructions
+*** Manage constructions
+** Law
+*** Cursus Honorum
+
+* Project related
+In general the external dependencies are located in the /include folder.
+
+** Config file 
+The configuration file is a json file located at the root folder in the project.
+This file contains various properties of the game that can be modified and
+change such as the difficulty, save folder path, GUI/TUI, fullscreen, etc.
+
+*** Properties
+- root\_folder :: (string) filepath to the folder containing the entire project (resource
+                 folder, etc)
+- save\_folder :: (string) filepath to the folder that will contain the saved gamestates
+- gui :: turn off/on the graphical user interface (if false TUI is on)
+- hard\_mode :: (bool) enables hard mode which will use Latin as the language and
+               Roman measurements
+- language :: (integer) determines which language the game will use (0 - US
+              English, more to come in the future)
+- fullscreen :: (bool) starts the game in fullscreen (changeable in the options
+                menu in game as well)
+- resolution :: (object) window size of the game when starting, recommended use
+                is to just use fullscreen
+- - width :: (int) window width
+- - height :: (int) window height
+
+** Contribute
+Bugfixes and various other coding related contributions are encouraged.
+
+*** Issues/problems
+Find something that does not work or dare I say it, a crash? Open an issue on
+Github and provide the following information.
+
+- What happened?
+- Steps to reproduce
+  1. First ...
+  2. ... then ... and so on.
+- Screenshot [Optional]
+- Setup (OS, config.json, etc)
+
+*** Translations
+Usually the strings that need to be translated are in files with names such as
+'ui_xxx.h'. Spelling and grammar fixes are also encourages and helpful to the
+project as a whole.
+
+** License
+The MIT License (MIT) Copyright (c) 2019 Alexander Lingtorp
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

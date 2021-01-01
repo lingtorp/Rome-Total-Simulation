@@ -1,0 +1,14 @@
+{
+    "title": "Young Romans are flocking to Graecum ...",
+    "text": "Young Romans are flocking to the province of Graecum for education by Greek tutors. Opponents to this trend argue that the optics of this situation puts Greek culture above Roman. Liberal senators argue that the Greek culture is Roman culture and is thus neccessary to experience first hand in the provinces.",
+    "options": [
+        "Bring the Greek tutors to Rome.",
+        "Let them experience the provinces."
+    ],
+    "consequences": [
+        {
+            "gold_income": -0.05,
+            "diplomatic_capacity": 1
+        }   
+    ]
+}

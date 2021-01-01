@@ -1,0 +1,17 @@
+{
+    "root_folder": "/home/alexander/repos/ColoniaC/",
+    "save_folder": "/home/alexander/repos/ColoniaC/",
+    "gui": false,
+    "hard_mode": false,
+    "language": 0,
+    "fullscreen": false,
+    "resolution": {
+        "width": 1280,
+        "height": 1080
+    },
+    "start_date": {
+        "year": -509,
+        "month": 0,
+        "day": 0
+    }
+}

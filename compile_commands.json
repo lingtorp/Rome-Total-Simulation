@@ -1,0 +1,17 @@
+[
+    {
+        "arguments": [
+            "gcc", 
+            "-c", 
+            "-std=c11", 
+            "-g", 
+            "-Wall", 
+            "-pedantic", 
+            "-o", 
+            "colonia", 
+            "main.c"
+        ], 
+        "directory": "/home/alexander/repos/ColoniaC", 
+        "file": "main.c"
+    }
+]
